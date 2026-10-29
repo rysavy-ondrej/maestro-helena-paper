@@ -1,0 +1,410 @@
+{
+  "checker": "scripts/check_flows.py modified to ignore additional fields",
+  "base_commit": "926fa20278ce5aab3d0a5ab953517bff0efa371b",
+  "results": {
+    "2024-07-30": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-07-30.jsonl"
+      ],
+      "lines": 196,
+      "accepted": 196,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 4,
+      "event_time": {
+        "earliest": "2024-07-30T02:38:48.960800+00:00",
+        "furthest": "2024-07-30T02:47:19.923800+00:00"
+      },
+      "contexts": 6,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "172.16.1.66",
+        "window_start": "2024-07-30T02:35:00+00:00",
+        "connections": 100
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2024-08-15": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-08-15.jsonl"
+      ],
+      "lines": 687,
+      "accepted": 687,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 6,
+      "event_time": {
+        "earliest": "2024-08-15T00:09:43.804300+00:00",
+        "furthest": "2024-08-15T00:42:25.117400+00:00"
+      },
+      "contexts": 13,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.8.15.133",
+        "window_start": "2024-08-15T00:10:00+00:00",
+        "connections": 224
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2024-09-04": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-09-04.jsonl"
+      ],
+      "lines": 221,
+      "accepted": 221,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 6,
+      "event_time": {
+        "earliest": "2024-09-04T17:32:31.318600+00:00",
+        "furthest": "2024-09-04T18:31:52.687800+00:00"
+      },
+      "contexts": 18,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "172.17.0.99",
+        "window_start": "2024-09-04T17:30:00+00:00",
+        "connections": 57
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2024-11-26": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-11-26.jsonl"
+      ],
+      "lines": 276,
+      "accepted": 276,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 4,
+      "event_time": {
+        "earliest": "2024-11-26T04:49:38.458100+00:00",
+        "furthest": "2024-11-26T05:42:27.554000+00:00"
+      },
+      "contexts": 13,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.11.26.183",
+        "window_start": "2024-11-26T04:50:00+00:00",
+        "connections": 145
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2025-01-22": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2025-01-22.jsonl"
+      ],
+      "lines": 767,
+      "accepted": 767,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 8,
+      "event_time": {
+        "earliest": "2025-01-22T19:44:56.530100+00:00",
+        "furthest": "2025-01-22T20:37:01.564300+00:00"
+      },
+      "contexts": 19,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.1.17.215",
+        "window_start": "2025-01-22T19:45:00+00:00",
+        "connections": 236
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2025-06-13": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2025-06-13.jsonl"
+      ],
+      "lines": 361,
+      "accepted": 361,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 6,
+      "event_time": {
+        "earliest": "2025-06-13T15:33:55.686600+00:00",
+        "furthest": "2025-06-13T16:08:03.134800+00:00"
+      },
+      "contexts": 14,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.6.13.133",
+        "window_start": "2025-06-13T15:30:00+00:00",
+        "connections": 144
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-01-31": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-01-31.jsonl"
+      ],
+      "lines": 314,
+      "accepted": 314,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 8,
+      "event_time": {
+        "earliest": "2026-01-27T23:04:03.908900+00:00",
+        "furthest": "2026-01-27T23:14:25.311900+00:00"
+      },
+      "contexts": 10,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.1.21.58",
+        "window_start": "2026-01-27T23:05:00+00:00",
+        "connections": 160
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-02-28": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-02-28.jsonl"
+      ],
+      "lines": 571,
+      "accepted": 571,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 5,
+      "event_time": {
+        "earliest": "2026-02-28T19:55:06.482900+00:00",
+        "furthest": "2026-03-01T00:10:09.787000+00:00"
+      },
+      "contexts": 55,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.2.28.88",
+        "window_start": "2026-02-28T19:55:00+00:00",
+        "connections": 163
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-08-09": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-08-09.jsonl"
+      ],
+      "lines": 593,
+      "accepted": 593,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 7,
+      "event_time": {
+        "earliest": "2026-08-09T02:07:32.442400+00:00",
+        "furthest": "2026-08-09T02:21:32.528700+00:00"
+      },
+      "contexts": 14,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "172.16.8.53",
+        "window_start": "2026-08-09T02:05:00+00:00",
+        "connections": 191
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-09-11": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-09-11.jsonl"
+      ],
+      "lines": 320,
+      "accepted": 320,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 3,
+      "event_time": {
+        "earliest": "2026-09-11T20:05:55.832900+00:00",
+        "furthest": "2026-09-11T20:27:04.889600+00:00"
+      },
+      "contexts": 7,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.9.11.135",
+        "window_start": "2026-09-11T20:05:00+00:00",
+        "connections": 103
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "iscx-testing": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0001.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0002.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0003.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0004.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0005.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0006.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0007.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0008.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0009.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0010.jsonl"
+      ],
+      "lines": 235023,
+      "accepted": 235023,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 115171,
+      "late_examples": [
+        {
+          "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0002.jsonl",
+          "line": 37253,
+          "event_time": "2007-10-08T13:22:16.188500+00:00",
+          "behind_the_watermark_seconds": 168091826.563
+        },
+        {
+          "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0002.jsonl",
+          "line": 37254,
+          "event_time": "2007-10-08T13:24:15.580400+00:00",
+          "behind_the_watermark_seconds": 168091707.1711
+        },
+        {
+          "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0002.jsonl",
+          "line": 37255,
+          "event_time": "2007-10-08T13:24:39.614100+00:00",
+          "behind_the_watermark_seconds": 168091683.1374
+        }
+      ],
+      "worst_lag_seconds": 168091826.563,
+      "hosts": 7264,
+      "event_time": {
+        "earliest": "1970-01-01T00:00:06.985435+00:00",
+        "furthest": "2013-02-04T01:33:42.751500+00:00"
+      },
+      "contexts": 3691,
+      "truncated_contexts": 8,
+      "connections_outside_the_arrays": 8370,
+      "largest_window": {
+        "host": "147.32.84.180",
+        "window_start": "2011-08-11T08:40:00+00:00",
+        "connections": 8380
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "iscx-training": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0001.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0002.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0003.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0004.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0005.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0006.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0007.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0008.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0009.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0010.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0011.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0012.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0013.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0014.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0015.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0016.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0017.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0018.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0019.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0020.jsonl"
+      ],
+      "lines": 210892,
+      "accepted": 210892,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 151620,
+      "late_examples": [
+        {
+          "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0001.jsonl",
+          "line": 28174,
+          "event_time": "2007-10-08T13:21:55.749700+00:00",
+          "behind_the_watermark_seconds": 121571395.2743
+        },
+        {
+          "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0001.jsonl",
+          "line": 28175,
+          "event_time": "2007-10-08T13:21:56.445500+00:00",
+          "behind_the_watermark_seconds": 121571394.5785
+        },
+        {
+          "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0001.jsonl",
+          "line": 28176,
+          "event_time": "2007-10-08T13:22:16.188500+00:00",
+          "behind_the_watermark_seconds": 121571374.8355
+        }
+      ],
+      "worst_lag_seconds": 121888123.1759,
+      "hosts": 8383,
+      "event_time": {
+        "earliest": "2007-10-08T13:21:55.749700+00:00",
+        "furthest": "2011-08-19T09:45:32.168800+00:00"
+      },
+      "contexts": 4993,
+      "truncated_contexts": 2,
+      "connections_outside_the_arrays": 1550,
+      "largest_window": {
+        "host": "147.32.84.170",
+        "window_start": "2011-08-12T12:55:00+00:00",
+        "connections": 2048
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    }
+  }
+}

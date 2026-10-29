@@ -1,0 +1,4 @@
+# Pandoc Markdown paper sources: one sentence per line, abstract without heading.
+MD013: false  # line length
+MD041: false  # first line heading (paper/abstract.md)
+MD060: false  # aligned table pipes

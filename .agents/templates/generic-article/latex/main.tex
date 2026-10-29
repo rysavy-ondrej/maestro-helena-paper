@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  % scalable fonts; T1 Computer Modern would embed bitmap (Type 3) fonts
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\input{pandoc-compat}
+
+\title{Research Paper Title}
+\author{First Author\thanks{Institution, City, Country. first.author@example.org}
+  \and Second Author\thanks{Institution, City, Country. second.author@example.org}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\input{generated/abstract.tex}
+\end{abstract}
+
+\noindent\textbf{Keywords:} Keyword One, Keyword Two, Keyword Three
+
+\input{generated/body.tex}
+
+\bibliographystyle{unsrtnat}
+\bibliography{../references/references}
+
+\end{document}

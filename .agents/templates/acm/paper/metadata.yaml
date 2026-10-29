@@ -1,0 +1,9 @@
+# Pandoc and pandoc-crossref settings.
+# Title, authors, and keywords are set in latex/main.tex.
+
+# ACM style: "Figure 1", "Table 1", "Equation (1)", "Section 2".
+figPrefix: ["Figure", "Figures"]
+tblPrefix: ["Table", "Tables"]
+eqnPrefix: ["Equation", "Equations"]
+secPrefix: ["Section", "Sections"]
+eqnPrefixTemplate: "$$p$$\u00A0($$i$$)"  # \u00A0 = non-breaking space

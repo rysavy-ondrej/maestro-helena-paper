@@ -1,0 +1,3 @@
+# Python packages for figure scripts (figures/src/*.py) and ./build.sh preview.
+matplotlib
+pymupdf

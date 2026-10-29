@@ -1,0 +1,39 @@
+\documentclass[runningheads]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  % scalable fonts; T1 Computer Modern would embed bitmap (Type 3) fonts
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\input{pandoc-compat}
+
+\begin{document}
+
+\title{Research Paper Title}
+\titlerunning{Short Title}
+
+\author{First Author\inst{1}\orcidID{0000-0000-0000-0000} \and
+Second Author\inst{2}}
+\authorrunning{F. Author and S. Author}
+
+\institute{Institution, City, Country\\
+\email{first.author@example.org} \and
+Institution, City, Country\\
+\email{second.author@example.org}}
+
+\maketitle
+
+\begin{abstract}
+\input{generated/abstract.tex}
+
+\keywords{Keyword One \and Keyword Two \and Keyword Three}
+\end{abstract}
+
+\input{generated/body.tex}
+
+\bibliographystyle{splncs04}
+\bibliography{../references/references}
+
+\end{document}

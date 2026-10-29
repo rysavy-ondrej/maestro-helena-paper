@@ -1,0 +1,42 @@
+\documentclass[journal]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+
+\input{pandoc-compat}
+
+\begin{document}
+
+\title{Research Paper Title}
+
+\author{First~Author,~\IEEEmembership{Member,~IEEE,}
+        and~Second~Author%
+\thanks{Manuscript received Month DD, YYYY.}%
+\thanks{F. Author and S. Author are with Institution, City, Country
+(e-mail: first.author@example.org; second.author@example.org).}}
+
+\markboth{Journal Name,~Vol.~XX, No.~X, Month~YYYY}%
+{Author \MakeLowercase{\textit{et al.}}: Short Title}
+
+\maketitle
+
+\begin{abstract}
+\input{generated/abstract.tex}
+\end{abstract}
+
+\begin{IEEEkeywords}
+Keyword One, Keyword Two, Keyword Three
+\end{IEEEkeywords}
+
+\input{generated/body.tex}
+
+% Allow building before the first citation exists (empty bibliography).
+\makeatletter\let\@noitemerr\relax\makeatother
+\bibliographystyle{IEEEtran}
+\bibliography{../references/references}
+
+\end{document}

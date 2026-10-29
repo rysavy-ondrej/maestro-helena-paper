@@ -1,0 +1,31 @@
+{
+  "dataset": "/mnt/data/2026_MAESTRO/Datasets/2025_LAN",
+  "wave_repo": "/tmp/wave-flow-check.MUvUQL",
+  "scope": "day",
+  "selected_days": [
+    "2025-09-01"
+  ],
+  "runs": [
+    {
+      "lines": 177494,
+      "accepted": 177494,
+      "refused": {},
+      "late": 0,
+      "contexts": 10991,
+      "truncated_contexts": 35,
+      "connections_outside_the_arrays": 9938,
+      "label": "2025-09-01",
+      "exit_code": 0
+    }
+  ],
+  "totals": {
+    "lines": 177494,
+    "accepted": 177494,
+    "late": 0,
+    "contexts": 10991,
+    "truncated_contexts": 35,
+    "connections_outside_the_arrays": 9938,
+    "refused": 0
+  },
+  "exit_code": 0
+}

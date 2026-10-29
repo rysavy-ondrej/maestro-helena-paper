@@ -1,0 +1,98 @@
+{
+  "root": "/mnt/data/2026_MAESTRO/Datasets/2025_LAN",
+  "files": 19802,
+  "compressed_bytes": 2712412661,
+  "days": 139,
+  "months": {
+    "2025-05": {
+      "files": 3689,
+      "bytes": 270326992
+    },
+    "2025-06": {
+      "files": 4323,
+      "bytes": 495525610
+    },
+    "2025-07": {
+      "files": 4083,
+      "bytes": 602491338
+    },
+    "2025-08": {
+      "files": 4464,
+      "bytes": 698432869
+    },
+    "2025-09": {
+      "files": 3243,
+      "bytes": 645635852
+    }
+  },
+  "first_filename_time": "2025-05-06T10:26:00",
+  "last_filename_time": "2025-09-23T12:00:00",
+  "missing_days": [
+    "2025-07-09",
+    "2025-07-10"
+  ],
+  "misplaced_files": [],
+  "unexpected_filenames": [],
+  "zero_byte_files": [
+    "2025/05/06/capture_20250506T2259.ndjson.gz",
+    "2025/05/12/capture_20250512T2250.ndjson.gz",
+    "2025/05/13/capture_20250513T0644.ndjson.gz",
+    "2025/05/13/capture_20250513T2256.ndjson.gz",
+    "2025/05/14/capture_20250514T2250.ndjson.gz",
+    "2025/05/15/capture_20250515T2250.ndjson.gz",
+    "2025/05/17/capture_20250517T2250.ndjson.gz",
+    "2025/05/20/capture_20250520T2251.ndjson.gz",
+    "2025/05/23/capture_20250523T2252.ndjson.gz",
+    "2025/05/28/capture_20250528T0440.ndjson.gz",
+    "2025/05/28/capture_20250528T2257.ndjson.gz",
+    "2025/05/29/capture_20250529T0400.ndjson.gz",
+    "2025/05/29/capture_20250529T2253.ndjson.gz",
+    "2025/06/10/capture_20250610T2254.ndjson.gz",
+    "2025/06/20/capture_20250620T0440.ndjson.gz",
+    "2025/06/24/capture_20250624T2300.ndjson.gz",
+    "2025/07/08/capture_20250708T0907.ndjson.gz",
+    "2025/07/08/capture_20250708T0909.ndjson.gz",
+    "2025/07/08/capture_20250708T0910.ndjson.gz",
+    "2025/07/08/capture_20250708T1022.ndjson.gz",
+    "2025/07/08/capture_20250708T1023.ndjson.gz",
+    "2025/07/08/capture_20250708T1147.ndjson.gz",
+    "2025/07/08/capture_20250708T1148.ndjson.gz",
+    "2025/07/08/capture_20250708T1149.ndjson.gz",
+    "2025/07/08/capture_20250708T1150.ndjson.gz",
+    "2025/07/08/capture_20250708T1151.ndjson.gz",
+    "2025/07/08/capture_20250708T1152.ndjson.gz",
+    "2025/07/08/capture_20250708T1153.ndjson.gz",
+    "2025/07/08/capture_20250708T1422.ndjson.gz",
+    "2025/07/08/capture_20250708T1423.ndjson.gz",
+    "2025/07/08/capture_20250708T1424.ndjson.gz",
+    "2025/07/08/capture_20250708T1425.ndjson.gz",
+    "2025/07/08/capture_20250708T1426.ndjson.gz",
+    "2025/07/08/capture_20250708T1427.ndjson.gz",
+    "2025/07/08/capture_20250708T1536.ndjson.gz",
+    "2025/07/08/capture_20250708T1548.ndjson.gz",
+    "2025/07/08/capture_20250708T1549.ndjson.gz",
+    "2025/07/08/capture_20250708T1550.ndjson.gz",
+    "2025/07/08/capture_20250708T1551.ndjson.gz",
+    "2025/07/08/capture_20250708T1552.ndjson.gz",
+    "2025/07/08/capture_20250708T1553.ndjson.gz",
+    "2025/07/08/capture_20250708T1554.ndjson.gz",
+    "2025/07/08/capture_20250708T1956.ndjson.gz",
+    "2025/07/08/capture_20250708T1957.ndjson.gz",
+    "2025/07/08/capture_20250708T1958.ndjson.gz",
+    "2025/07/08/capture_20250708T1959.ndjson.gz",
+    "2025/07/08/capture_20250708T2000.ndjson.gz",
+    "2025/07/08/capture_20250708T2001.ndjson.gz",
+    "2025/07/08/capture_20250708T2002.ndjson.gz",
+    "2025/07/08/capture_20250708T2003.ndjson.gz",
+    "2025/07/16/capture_20250716T1010.ndjson.gz",
+    "2025/07/18/capture_20250718T0715.ndjson.gz",
+    "2025/07/28/capture_20250728T2300.ndjson.gz",
+    "2025/07/30/capture_20250730T2300.ndjson.gz",
+    "2025/08/04/capture_20250804T2300.ndjson.gz",
+    "2025/08/15/capture_20250815T2300.ndjson.gz",
+    "2025/09/15/capture_20250915T1151.ndjson.gz",
+    "2025/09/16/capture_20250916T2300.ndjson.gz",
+    "2025/09/19/capture_20250919T2300.ndjson.gz",
+    "2025/09/21/capture_20250921T2300.ndjson.gz"
+  ]
+}

@@ -1,0 +1,48 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+
+\input{pandoc-compat}
+
+\begin{document}
+
+\title{Research Paper Title}
+
+\author{
+\IEEEauthorblockN{First Author}
+\IEEEauthorblockA{
+Institution\\
+City, Country\\
+first.author@example.org}
+\and
+\IEEEauthorblockN{Second Author}
+\IEEEauthorblockA{
+Institution\\
+City, Country\\
+second.author@example.org}
+}
+
+\maketitle
+
+\begin{abstract}
+\input{generated/abstract.tex}
+\end{abstract}
+
+\begin{IEEEkeywords}
+Keyword One, Keyword Two, Keyword Three
+\end{IEEEkeywords}
+
+\input{generated/body.tex}
+
+% Allow building before the first citation exists (empty bibliography).
+\makeatletter\let\@noitemerr\relax\makeatother
+\bibliographystyle{IEEEtran}
+\bibliography{../references/references}
+
+\end{document}

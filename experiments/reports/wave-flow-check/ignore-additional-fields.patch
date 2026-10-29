@@ -1,0 +1,111 @@
+diff --git a/scripts/check_flows.py b/scripts/check_flows.py
+index 32e3f22..3ebce48 100755
+--- a/scripts/check_flows.py
++++ b/scripts/check_flows.py
+@@ -39,9 +39,12 @@ visible by reading the data:
+    the traffic falls outside the arrays is the difference between reading a
+    context as a host's activity and reading it as a sample.
+ 
+-The verdicts come from `normalize_flows.normalize` and the constants come from the
+-same module the pipeline is pinned to, so this tool cannot disagree with a real run
+-about what is acceptable. Inputs are expanded and opened by the same functions
++Additional fields are ignored, including inside protocol objects. Required fields
++and the types of recognized fields are still validated. This checker policy does
++not relax wave-offline ingestion: its strict schema may still reject extensions.
++
++The normalized verdicts come from `normalize_flows.normalize` and the constants come from the
++same module the pipeline is pinned to, with the additional-field policy above applied before normalization. Inputs are expanded and opened by the same functions
+ `bin/wave-offline` uses (`helena.v11.transport`): a directory gives the same files in
+ the same order, and a gzip file is recognised by its content, not its name.
+ 
+@@ -129,7 +132,7 @@ def field_of(location: tuple) -> str:
+ def field_errors(raw: str) -> list[tuple[str, str, str]]:
+     """(kind, field, message) for each problem the contract finds in one record."""
+     try:
+-        FlowRecord.model_validate(json.loads(raw))
++        FlowRecord.model_validate(json.loads(raw), extra="ignore")
+     except ValidationError as error:
+         return [(KINDS.get(item["type"], item["type"]), field_of(item["loc"]), item["msg"])
+                 for item in error.errors(include_url=False, include_input=False)]
+@@ -149,6 +152,20 @@ def compact(errors: list[tuple[str, str, str]], *, limit: int = 6) -> str:
+         for kind, names in grouped.items())
+ 
+ 
++def required_fields_only(raw: str) -> str:
++    """Ignore producer extensions while retaining validation of known fields.
++
++    Invalid inputs go through normalize unchanged for its typed refusal reason;
++    field_errors reports the required/known-field problems without extra keys.
++    This is a checker policy, not a change to wave-offline ingestion.
++    """
++    try:
++        record = FlowRecord.model_validate(json.loads(raw), extra="ignore")
++    except (ValueError, TypeError):
++        return raw
++    return record.model_dump_json(exclude_unset=True)
++
++
+ def inspect(paths: list[str], *, examples: int, progress: Any = None) -> dict[str, Any]:
+     """Read every record once and report what a run over it would do.
+ 
+@@ -179,7 +196,7 @@ def inspect(paths: list[str], *, examples: int, progress: Any = None) -> dict[st
+             continue
+         lines += 1
+         event, refusal = normalize(
+-            raw, position=Position(0, offset), tenant="preflight",
++            required_fields_only(raw), position=Position(0, offset), tenant="preflight",
+             sensor="preflight", run_id="preflight")
+         if refusal is not None:
+             refused[refusal.reason] += 1
+diff --git a/tests/v1_1/test_check_flows.py b/tests/v1_1/test_check_flows.py
+index 5a4012d..380e684 100644
+--- a/tests/v1_1/test_check_flows.py
++++ b/tests/v1_1/test_check_flows.py
+@@ -162,17 +162,16 @@ def test_field_problems_are_grouped_across_records_compactly(tmp_path) -> None:
+     code, finding = run(str(path))
+     assert code == 1
+     rows = {(p["kind"], p["field"]): p for p in finding["schema_problems"]}
+-    assert set(rows) == {("missing", "id"), ("missing", "ip"), ("missing", "td"),
+-                         ("unexpected field", "sa"), ("unexpected field", "da")}
++    assert set(rows) == {("missing", "id"), ("missing", "ip"), ("missing", "td")}
+     assert {p["records"] for p in rows.values()} == {5}
+     assert rows[("missing", "id")]["first"]["line"] == 2
+     assert finding["refused_examples"]["schema_invalid"][0]["detail"] == (
+-        "missing id, td, ip; unexpected field sa, da")  # the model's field order
++        "missing id, td, ip")  # the model's field order
+ 
+     report = subprocess.run([sys.executable, str(TOOL), str(path)],
+                             capture_output=True, text=True, timeout=300).stdout
+     lines = [line for line in report.splitlines() if "[foreign.jsonl:2]" in line]
+-    assert len(lines) == 2, report  # one per kind, the fields merged onto it
++    assert len(lines) == 1, report  # one per kind, the fields merged onto it
+ 
+ 
+ def test_a_directory_of_gzip_files_is_read_in_order(tmp_path) -> None:
+@@ -188,3 +187,26 @@ def test_a_directory_of_gzip_files_is_read_in_order(tmp_path) -> None:
+     code, finding = run(str(directory))
+     assert (code, finding["accepted"], finding["late"]) == (0, 6, 0), finding
+     assert [Path(f).name for f in finding["files"]] == ["a.ndjson.gz", "b.ndjson.gz"]
++
++
++def test_additional_fields_are_ignored_but_known_fields_are_validated(tmp_path) -> None:
++    extended = flow(1, 1789000000.0)
++    extended.update(cid="part/tcp.1", part="part", botnet=["example"])
++    extended["ip"]["producer_extension"] = {"value": 1}
++    extended["tcp"]["producer_extension"] = True
++    path = write(tmp_path / "extended.jsonl", [extended])
++    code, finding = run(str(path))
++    assert (code, finding["accepted"], finding["refused"]) == (0, 1, {})
++    assert finding["contexts"] == 1
++
++    del extended["ip"]["dst"]
++    extended["ip"]["bsent"] = "not an integer"
++    write(path, [extended])
++    code, finding = run(str(path))
++    assert code == 1
++    assert finding["accepted"] == 0
++    assert finding["refused"] == {"schema_invalid": 1}
++    problems = {(p["kind"], p["field"]) for p in finding["schema_problems"]}
++    assert ("missing", "ip.dst") in problems
++    assert ("int_type", "ip.bsent") in problems
++    assert all(kind != "unexpected field" for kind, _ in problems)

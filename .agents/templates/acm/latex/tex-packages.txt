@@ -1,0 +1,6 @@
+# TeX Live packages installed by ./build.sh setup when it sets up a local TinyTeX.
+# Missing packages found during a build are installed automatically as well.
+acmart courier
+# acmart dependencies not in TinyTeX
+xstring microtype totpages everyshi environ hyperxmp ncctools cmap caption comment fancyhdr preprint
+libertine newtx inconsolata upquote

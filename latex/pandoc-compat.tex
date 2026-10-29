@@ -1,0 +1,32 @@
+% Definitions required by Pandoc-generated LaTeX (latex/generated/*.tex).
+% Load after graphicx. Do not remove.
+
+\makeatletter
+
+% Resolve \input and \includegraphics paths relative to the project root.
+\def\input@path{{../}}
+\graphicspath{{../}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% \pandocbounded (Pandoc >= 3.2): scale an image down to fit the line width.
+\newsavebox\pandoc@box
+\providecommand*\pandocbounded[1]{%
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi}
+
+\makeatother
+
+% `pandoc --natbib` emits natbib commands. Map them to \cite for numeric
+% styles without natbib (IEEEtran, llncs). No effect when natbib is loaded
+% (acmart, elsarticle, generic article).
+\providecommand{\citep}{\cite}
+\providecommand{\citet}{\cite}
+\providecommand{\citealp}{\cite}
+\providecommand{\citetext}[1]{#1}

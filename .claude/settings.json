@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "paper-forge": {
+      "source": {
+        "source": "github",
+        "repo": "rysavy-ondrej/paper-forge"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "paper-forge@paper-forge": true
+  }
+}

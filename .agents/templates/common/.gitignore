@@ -1,0 +1,17 @@
+build/
+latex/generated/
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+.DS_Store
+__pycache__/
+.tools/
+.venv/

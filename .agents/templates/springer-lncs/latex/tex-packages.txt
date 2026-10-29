@@ -1,0 +1,3 @@
+# TeX Live packages installed by ./build.sh setup when it sets up a local TinyTeX.
+# Missing packages found during a build are installed automatically as well.
+llncs aliascnt courier

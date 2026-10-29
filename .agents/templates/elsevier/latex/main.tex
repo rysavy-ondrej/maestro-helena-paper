@@ -1,0 +1,52 @@
+% Submission: preprint,12pt (single column, double-spaced via "review").
+% Two-column journal look: final,5p,times,twocolumn.
+\documentclass[preprint,12pt]{elsarticle}
+
+% elsarticle already loads natbib (numeric with elsarticle-num).
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  % scalable fonts; T1 Computer Modern would embed bitmap (Type 3) fonts
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\input{pandoc-compat}
+
+\journal{Journal Name}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Research Paper Title}
+
+\author[inst1]{First Author\corref{cor1}}
+\ead{first.author@example.org}
+\author[inst2]{Second Author}
+\cortext[cor1]{Corresponding author}
+
+\affiliation[inst1]{organization={Institution},
+  city={City},
+  country={Country}}
+\affiliation[inst2]{organization={Institution},
+  city={City},
+  country={Country}}
+
+\begin{abstract}
+\input{generated/abstract.tex}
+\end{abstract}
+
+% Optional, if the journal requires them: \begin{highlights} \item ... \end{highlights}
+
+\begin{keyword}
+Keyword One \sep Keyword Two \sep Keyword Three
+\end{keyword}
+
+\end{frontmatter}
+
+\input{generated/body.tex}
+
+\bibliographystyle{elsarticle-num}
+\bibliography{../references/references}
+
+\end{document}

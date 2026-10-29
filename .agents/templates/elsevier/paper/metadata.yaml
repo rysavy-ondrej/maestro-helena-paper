@@ -1,0 +1,9 @@
+# Pandoc and pandoc-crossref settings.
+# Title, authors, and keywords are set in latex/main.tex.
+
+# Elsevier style: "Fig. 1", "Table 1", "Eq. (1)", "Section 2".
+figPrefix: ["Fig.", "Figs."]
+tblPrefix: ["Table", "Tables"]
+eqnPrefix: ["Eq.", "Eqs."]
+secPrefix: ["Section", "Sections"]
+eqnPrefixTemplate: "$$p$$\u00A0($$i$$)"  # \u00A0 = non-breaking space

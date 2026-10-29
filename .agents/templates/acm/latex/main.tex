@@ -1,0 +1,54 @@
+% Conferences: sigconf. Journals: acmsmall (or acmlarge, acmtog).
+% Submission: add "review,anonymous". Camera-ready: remove the draft settings below
+% and paste the rights-management commands ACM sends after the rights form.
+\documentclass[sigconf]{acmart}
+
+% acmart already loads amsmath, graphicx, booktabs, natbib, and hyperref.
+% Do not load amssymb (conflicts with the class fonts) or hyperref again.
+
+\input{pandoc-compat}
+
+% Draft settings: no ACM rights block or reference format.
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+\acmConference[Conference'YY]{Conference Name}{Month DD--DD, YYYY}{City, Country}
+
+\begin{document}
+
+\title{Research Paper Title}
+
+\author{First Author}
+\affiliation{%
+  \institution{Institution}
+  \city{City}
+  \country{Country}}
+\email{first.author@example.org}
+
+\author{Second Author}
+\affiliation{%
+  \institution{Institution}
+  \city{City}
+  \country{Country}}
+\email{second.author@example.org}
+
+% acmart requires the abstract and keywords before \maketitle.
+\begin{abstract}
+\input{generated/abstract.tex}
+\end{abstract}
+
+% CCS concepts: generate at https://dl.acm.org/ccs and paste here.
+% \begin{CCSXML} ... \end{CCSXML}
+% \ccsdesc[500]{...}
+
+\keywords{Keyword One, Keyword Two, Keyword Three}
+
+\maketitle
+
+\input{generated/body.tex}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{../references/references}
+
+\end{document}

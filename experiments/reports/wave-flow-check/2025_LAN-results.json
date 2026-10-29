@@ -1,0 +1,1214 @@
+{
+  "2025_LAN": {
+    "files": [
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0000.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0010.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0020.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0030.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0040.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0050.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0100.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0110.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0120.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0130.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0140.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0150.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0200.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0210.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0220.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0230.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0240.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0250.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0300.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0310.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0320.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0330.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0340.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0350.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0400.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0410.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0420.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0430.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0440.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0450.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0500.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0510.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0520.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0530.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0540.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0550.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0600.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0610.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0620.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0630.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0640.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0650.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0700.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0710.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0720.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0730.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0740.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0750.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0800.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0810.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0820.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0830.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0840.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0850.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0900.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0910.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0920.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0930.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0940.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T0950.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1000.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1010.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1020.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1030.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1040.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1050.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1100.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1110.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1120.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1130.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1140.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1150.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1200.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1210.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1220.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1230.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1240.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1250.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1300.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1310.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1320.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1330.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1340.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1350.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1400.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1410.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1420.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1430.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1440.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1450.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1500.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1510.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1520.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1530.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1540.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1550.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1600.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1610.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1620.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1630.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1640.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1650.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1700.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1710.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1720.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1730.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1740.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1750.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1800.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1810.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1820.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1830.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1840.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1850.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1900.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1910.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1920.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1930.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1940.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T1950.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2000.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2010.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2020.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2030.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2040.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2050.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2100.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2110.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2120.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2130.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2140.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2150.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2200.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2210.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2220.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2230.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2240.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2250.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2300.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2310.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2320.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2330.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2340.ndjson.gz",
+      "/mnt/data/2026_MAESTRO/Datasets/2025_LAN/01/capture_20250901T2350.ndjson.gz"
+    ],
+    "lines": 177494,
+    "accepted": 177494,
+    "refused": {},
+    "refused_examples": {},
+    "schema_problems": [],
+    "late": 0,
+    "late_examples": [],
+    "worst_lag_seconds": 0.0,
+    "hosts": 4133,
+    "event_time": {
+      "earliest": "2025-08-31T23:59:48.760700+00:00",
+      "furthest": "2025-09-01T23:59:27.738000+00:00"
+    },
+    "contexts": 10991,
+    "truncated_contexts": 35,
+    "connections_outside_the_arrays": 9938,
+    "largest_window": {
+      "host": "192.168.111.11",
+      "window_start": "2025-09-01T14:50:00+00:00",
+      "connections": 869
+    },
+    "window_minutes": 5,
+    "connection_cap": 500
+  },
+  "2025_LAN-profile": {
+    "files": 144,
+    "compressed_bytes": 26486634,
+    "records": 177494,
+    "fields": {
+      "id": 177494,
+      "tx": 177494,
+      "ts": 177494,
+      "td": 177494,
+      "ip": 177494,
+      "tcp": 70064,
+      "tls": 38002,
+      "udp": 107430,
+      "dns": 101139,
+      "http": 2837,
+      "http2": 840
+    },
+    "issues": {},
+    "late_total": 0,
+    "late_within_file": 0,
+    "worst_lag_seconds": 0,
+    "late_but_end_at_or_after_watermark": 0,
+    "max_line_bytes": 2369547,
+    "examples": [],
+    "per_file": [
+      {
+        "file": "capture_20250901T0000.ndjson.gz",
+        "n": 1233,
+        "min_ts": 1756684788.7607,
+        "max_ts": 1756685392.3679,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0010.ndjson.gz",
+        "n": 987,
+        "min_ts": 1756685394.3503,
+        "max_ts": 1756685998.3568,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0020.ndjson.gz",
+        "n": 1052,
+        "min_ts": 1756685999.3561,
+        "max_ts": 1756686537.9487,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0030.ndjson.gz",
+        "n": 1005,
+        "min_ts": 1756686540.6539,
+        "max_ts": 1756687143.5545,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0040.ndjson.gz",
+        "n": 1215,
+        "min_ts": 1756687144.5742,
+        "max_ts": 1756687744.6982,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0050.ndjson.gz",
+        "n": 1003,
+        "min_ts": 1756687746.6002,
+        "max_ts": 1756688348.706,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0100.ndjson.gz",
+        "n": 1194,
+        "min_ts": 1756688349.9535,
+        "max_ts": 1756688953.8355,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0110.ndjson.gz",
+        "n": 1001,
+        "min_ts": 1756688956.8728,
+        "max_ts": 1756689556.6482,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0120.ndjson.gz",
+        "n": 1180,
+        "min_ts": 1756689559.6699,
+        "max_ts": 1756690162.8331,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0130.ndjson.gz",
+        "n": 993,
+        "min_ts": 1756690163.1895,
+        "max_ts": 1756690763.936,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0140.ndjson.gz",
+        "n": 1164,
+        "min_ts": 1756690764.3494,
+        "max_ts": 1756691365.8331,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0150.ndjson.gz",
+        "n": 998,
+        "min_ts": 1756691365.9844,
+        "max_ts": 1756691967.2016,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0200.ndjson.gz",
+        "n": 1138,
+        "min_ts": 1756691967.5359,
+        "max_ts": 1756692567.0294,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0210.ndjson.gz",
+        "n": 971,
+        "min_ts": 1756692568.4095,
+        "max_ts": 1756693168.9758,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0220.ndjson.gz",
+        "n": 1126,
+        "min_ts": 1756693169.5771,
+        "max_ts": 1756693769.5783,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0230.ndjson.gz",
+        "n": 1030,
+        "min_ts": 1756693770.7972,
+        "max_ts": 1756694373.2123,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0240.ndjson.gz",
+        "n": 1164,
+        "min_ts": 1756694373.818,
+        "max_ts": 1756694975.6209,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0250.ndjson.gz",
+        "n": 937,
+        "min_ts": 1756694976.5917,
+        "max_ts": 1756695577.7938,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0300.ndjson.gz",
+        "n": 1122,
+        "min_ts": 1756695578.6904,
+        "max_ts": 1756696182.2292,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0310.ndjson.gz",
+        "n": 913,
+        "min_ts": 1756696184.2039,
+        "max_ts": 1756696786.0786,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0320.ndjson.gz",
+        "n": 1051,
+        "min_ts": 1756696789.0897,
+        "max_ts": 1756697392.4096,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0330.ndjson.gz",
+        "n": 994,
+        "min_ts": 1756697392.9351,
+        "max_ts": 1756697993.5682,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0340.ndjson.gz",
+        "n": 1141,
+        "min_ts": 1756697994.3011,
+        "max_ts": 1756698594.0975,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0350.ndjson.gz",
+        "n": 982,
+        "min_ts": 1756698596.3595,
+        "max_ts": 1756699197.7354,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0400.ndjson.gz",
+        "n": 995,
+        "min_ts": 1756699199.0122,
+        "max_ts": 1756699741.0709,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0410.ndjson.gz",
+        "n": 939,
+        "min_ts": 1756699741.4439,
+        "max_ts": 1756700341.0845,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0420.ndjson.gz",
+        "n": 1072,
+        "min_ts": 1756700343.0976,
+        "max_ts": 1756700945.4619,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0430.ndjson.gz",
+        "n": 952,
+        "min_ts": 1756700945.504,
+        "max_ts": 1756701546.6492,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0440.ndjson.gz",
+        "n": 1071,
+        "min_ts": 1756701550.6257,
+        "max_ts": 1756702148.8753,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0450.ndjson.gz",
+        "n": 987,
+        "min_ts": 1756702152.321,
+        "max_ts": 1756702753.1947,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0500.ndjson.gz",
+        "n": 1063,
+        "min_ts": 1756702753.9663,
+        "max_ts": 1756703354.5018,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0510.ndjson.gz",
+        "n": 931,
+        "min_ts": 1756703355.2373,
+        "max_ts": 1756703956.307,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0520.ndjson.gz",
+        "n": 1090,
+        "min_ts": 1756703957.1939,
+        "max_ts": 1756704558.5768,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0530.ndjson.gz",
+        "n": 957,
+        "min_ts": 1756704558.9091,
+        "max_ts": 1756705160.6115,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0540.ndjson.gz",
+        "n": 927,
+        "min_ts": 1756705160.9657,
+        "max_ts": 1756705761.8665,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0550.ndjson.gz",
+        "n": 1167,
+        "min_ts": 1756705762.1642,
+        "max_ts": 1756706361.8291,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0600.ndjson.gz",
+        "n": 966,
+        "min_ts": 1756706363.2213,
+        "max_ts": 1756706962.6007,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0610.ndjson.gz",
+        "n": 1140,
+        "min_ts": 1756706964.2794,
+        "max_ts": 1756707563.9657,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0620.ndjson.gz",
+        "n": 959,
+        "min_ts": 1756707565.3118,
+        "max_ts": 1756708165.5262,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0630.ndjson.gz",
+        "n": 1140,
+        "min_ts": 1756708166.343,
+        "max_ts": 1756708765.6407,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0640.ndjson.gz",
+        "n": 993,
+        "min_ts": 1756708767.215,
+        "max_ts": 1756709367.8248,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0650.ndjson.gz",
+        "n": 1939,
+        "min_ts": 1756709368.3941,
+        "max_ts": 1756709968.7803,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0700.ndjson.gz",
+        "n": 1343,
+        "min_ts": 1756709969.1547,
+        "max_ts": 1756710569.5767,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0710.ndjson.gz",
+        "n": 1397,
+        "min_ts": 1756710570.5726,
+        "max_ts": 1756711170.5258,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0720.ndjson.gz",
+        "n": 1754,
+        "min_ts": 1756711171.5201,
+        "max_ts": 1756711769.5786,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0730.ndjson.gz",
+        "n": 1342,
+        "min_ts": 1756711772.4834,
+        "max_ts": 1756712372.8794,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0740.ndjson.gz",
+        "n": 1444,
+        "min_ts": 1756712376.3451,
+        "max_ts": 1756712978.6025,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0750.ndjson.gz",
+        "n": 1781,
+        "min_ts": 1756712978.9265,
+        "max_ts": 1756713579.3075,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0800.ndjson.gz",
+        "n": 1533,
+        "min_ts": 1756713580.5631,
+        "max_ts": 1756714181.4937,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0810.ndjson.gz",
+        "n": 1353,
+        "min_ts": 1756714181.5721,
+        "max_ts": 1756714781.8744,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0820.ndjson.gz",
+        "n": 1400,
+        "min_ts": 1756714782.4418,
+        "max_ts": 1756715381.9,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0830.ndjson.gz",
+        "n": 1569,
+        "min_ts": 1756715383.3905,
+        "max_ts": 1756715983.8594,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0840.ndjson.gz",
+        "n": 2167,
+        "min_ts": 1756715983.8637,
+        "max_ts": 1756716582.8646,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0850.ndjson.gz",
+        "n": 1665,
+        "min_ts": 1756716584.2694,
+        "max_ts": 1756717183.9714,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0900.ndjson.gz",
+        "n": 1756,
+        "min_ts": 1756717184.7811,
+        "max_ts": 1756717784.3742,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0910.ndjson.gz",
+        "n": 973,
+        "min_ts": 1756717785.7148,
+        "max_ts": 1756718388.8899,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0920.ndjson.gz",
+        "n": 941,
+        "min_ts": 1756718390.9121,
+        "max_ts": 1756718992.0377,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0930.ndjson.gz",
+        "n": 1053,
+        "min_ts": 1756718993.9058,
+        "max_ts": 1756719594.2072,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0940.ndjson.gz",
+        "n": 1008,
+        "min_ts": 1756719594.3111,
+        "max_ts": 1756720138.8554,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T0950.ndjson.gz",
+        "n": 963,
+        "min_ts": 1756720139.3817,
+        "max_ts": 1756720740.18,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1000.ndjson.gz",
+        "n": 1148,
+        "min_ts": 1756720745.1978,
+        "max_ts": 1756721344.5409,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1010.ndjson.gz",
+        "n": 1301,
+        "min_ts": 1756721346.9628,
+        "max_ts": 1756721947.5197,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1020.ndjson.gz",
+        "n": 1162,
+        "min_ts": 1756721948.6968,
+        "max_ts": 1756722548.686,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1030.ndjson.gz",
+        "n": 1115,
+        "min_ts": 1756722550.6083,
+        "max_ts": 1756723150.2352,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1040.ndjson.gz",
+        "n": 911,
+        "min_ts": 1756723152.634,
+        "max_ts": 1756723753.7398,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1050.ndjson.gz",
+        "n": 1103,
+        "min_ts": 1756723754.3256,
+        "max_ts": 1756724354.4257,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1100.ndjson.gz",
+        "n": 1111,
+        "min_ts": 1756724355.8827,
+        "max_ts": 1756724956.9942,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1110.ndjson.gz",
+        "n": 877,
+        "min_ts": 1756724957.446,
+        "max_ts": 1756725557.3701,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1120.ndjson.gz",
+        "n": 1093,
+        "min_ts": 1756725558.7553,
+        "max_ts": 1756726158.9075,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1130.ndjson.gz",
+        "n": 957,
+        "min_ts": 1756726159.7853,
+        "max_ts": 1756726760.4158,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1140.ndjson.gz",
+        "n": 1093,
+        "min_ts": 1756726760.8249,
+        "max_ts": 1756727361.5175,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1150.ndjson.gz",
+        "n": 948,
+        "min_ts": 1756727361.8797,
+        "max_ts": 1756727962.1597,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1200.ndjson.gz",
+        "n": 924,
+        "min_ts": 1756727962.9837,
+        "max_ts": 1756728562.3945,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1210.ndjson.gz",
+        "n": 700,
+        "min_ts": 1756728564.0251,
+        "max_ts": 1756729163.8627,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1220.ndjson.gz",
+        "n": 875,
+        "min_ts": 1756729165.0652,
+        "max_ts": 1756729765.4106,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1230.ndjson.gz",
+        "n": 968,
+        "min_ts": 1756729766.0963,
+        "max_ts": 1756730366.0167,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1240.ndjson.gz",
+        "n": 1209,
+        "min_ts": 1756730367.246,
+        "max_ts": 1756730969.8147,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1250.ndjson.gz",
+        "n": 2296,
+        "min_ts": 1756730970.1043,
+        "max_ts": 1756731568.4131,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1300.ndjson.gz",
+        "n": 2327,
+        "min_ts": 1756731570.7328,
+        "max_ts": 1756732169.4621,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1310.ndjson.gz",
+        "n": 2100,
+        "min_ts": 1756732170.9066,
+        "max_ts": 1756732770.7375,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1320.ndjson.gz",
+        "n": 2213,
+        "min_ts": 1756732771.2111,
+        "max_ts": 1756733371.7678,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1330.ndjson.gz",
+        "n": 1865,
+        "min_ts": 1756733372.2155,
+        "max_ts": 1756733973.0495,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1340.ndjson.gz",
+        "n": 2160,
+        "min_ts": 1756733973.5107,
+        "max_ts": 1756734574.2225,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1350.ndjson.gz",
+        "n": 2050,
+        "min_ts": 1756734574.5319,
+        "max_ts": 1756735174.9407,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1400.ndjson.gz",
+        "n": 2198,
+        "min_ts": 1756735175.0918,
+        "max_ts": 1756735775.9055,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1410.ndjson.gz",
+        "n": 1976,
+        "min_ts": 1756735775.9116,
+        "max_ts": 1756736376.4668,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1420.ndjson.gz",
+        "n": 2136,
+        "min_ts": 1756736376.9461,
+        "max_ts": 1756736977.1045,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1430.ndjson.gz",
+        "n": 1853,
+        "min_ts": 1756736978.1548,
+        "max_ts": 1756737579.7158,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1440.ndjson.gz",
+        "n": 2108,
+        "min_ts": 1756737579.7195,
+        "max_ts": 1756738180.1962,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1450.ndjson.gz",
+        "n": 1865,
+        "min_ts": 1756738181.0146,
+        "max_ts": 1756738782.3538,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1500.ndjson.gz",
+        "n": 2047,
+        "min_ts": 1756738782.4476,
+        "max_ts": 1756739382.8754,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1510.ndjson.gz",
+        "n": 1852,
+        "min_ts": 1756739383.1989,
+        "max_ts": 1756739983.5435,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1520.ndjson.gz",
+        "n": 1858,
+        "min_ts": 1756739984.2499,
+        "max_ts": 1756740583.4368,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1530.ndjson.gz",
+        "n": 1006,
+        "min_ts": 1756740585.0623,
+        "max_ts": 1756741180.4285,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1540.ndjson.gz",
+        "n": 1201,
+        "min_ts": 1756741186.0615,
+        "max_ts": 1756741786.1125,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1550.ndjson.gz",
+        "n": 1080,
+        "min_ts": 1756741786.8123,
+        "max_ts": 1756742385.4635,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1600.ndjson.gz",
+        "n": 1239,
+        "min_ts": 1756742387.391,
+        "max_ts": 1756742987.3566,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1610.ndjson.gz",
+        "n": 1064,
+        "min_ts": 1756742988.0148,
+        "max_ts": 1756743588.1811,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1620.ndjson.gz",
+        "n": 1172,
+        "min_ts": 1756743589.1266,
+        "max_ts": 1756744189.582,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1630.ndjson.gz",
+        "n": 1000,
+        "min_ts": 1756744189.7511,
+        "max_ts": 1756744788.2881,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1640.ndjson.gz",
+        "n": 1062,
+        "min_ts": 1756744790.3914,
+        "max_ts": 1756745389.6272,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1650.ndjson.gz",
+        "n": 1237,
+        "min_ts": 1756745390.9016,
+        "max_ts": 1756745991.3026,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1700.ndjson.gz",
+        "n": 1013,
+        "min_ts": 1756745991.486,
+        "max_ts": 1756746589.5231,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1710.ndjson.gz",
+        "n": 1237,
+        "min_ts": 1756746592.1577,
+        "max_ts": 1756747191.2187,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1720.ndjson.gz",
+        "n": 1027,
+        "min_ts": 1756747192.7822,
+        "max_ts": 1756747793.1638,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1730.ndjson.gz",
+        "n": 1215,
+        "min_ts": 1756747793.4082,
+        "max_ts": 1756748393.7694,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1740.ndjson.gz",
+        "n": 1015,
+        "min_ts": 1756748394.284,
+        "max_ts": 1756748992.6352,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1750.ndjson.gz",
+        "n": 1170,
+        "min_ts": 1756748994.3191,
+        "max_ts": 1756749593.1514,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1800.ndjson.gz",
+        "n": 1064,
+        "min_ts": 1756749594.3257,
+        "max_ts": 1756750194.8746,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1810.ndjson.gz",
+        "n": 1205,
+        "min_ts": 1756750196.081,
+        "max_ts": 1756750795.9071,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1820.ndjson.gz",
+        "n": 1015,
+        "min_ts": 1756750796.3927,
+        "max_ts": 1756751396.1432,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1830.ndjson.gz",
+        "n": 1255,
+        "min_ts": 1756751397.3315,
+        "max_ts": 1756751996.0174,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1840.ndjson.gz",
+        "n": 1226,
+        "min_ts": 1756751997.6755,
+        "max_ts": 1756752597.7751,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1850.ndjson.gz",
+        "n": 1099,
+        "min_ts": 1756752598.2067,
+        "max_ts": 1756753197.0598,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1900.ndjson.gz",
+        "n": 1311,
+        "min_ts": 1756753198.8795,
+        "max_ts": 1756753799.2494,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1910.ndjson.gz",
+        "n": 998,
+        "min_ts": 1756753799.5194,
+        "max_ts": 1756754340.1151,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1920.ndjson.gz",
+        "n": 1312,
+        "min_ts": 1756754340.3324,
+        "max_ts": 1756754939.8618,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1930.ndjson.gz",
+        "n": 1045,
+        "min_ts": 1756754940.7749,
+        "max_ts": 1756755538.5373,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1940.ndjson.gz",
+        "n": 1210,
+        "min_ts": 1756755541.4429,
+        "max_ts": 1756756141.6735,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T1950.ndjson.gz",
+        "n": 1049,
+        "min_ts": 1756756142.1457,
+        "max_ts": 1756756742.5834,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2000.ndjson.gz",
+        "n": 1219,
+        "min_ts": 1756756743.0172,
+        "max_ts": 1756757342.6067,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2010.ndjson.gz",
+        "n": 1019,
+        "min_ts": 1756757343.6921,
+        "max_ts": 1756757944.1303,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2020.ndjson.gz",
+        "n": 1167,
+        "min_ts": 1756757944.2544,
+        "max_ts": 1756758544.753,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2030.ndjson.gz",
+        "n": 1022,
+        "min_ts": 1756758545.0676,
+        "max_ts": 1756759143.7251,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2040.ndjson.gz",
+        "n": 1183,
+        "min_ts": 1756759145.6932,
+        "max_ts": 1756759745.4782,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2050.ndjson.gz",
+        "n": 1038,
+        "min_ts": 1756759746.4596,
+        "max_ts": 1756760344.5705,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2100.ndjson.gz",
+        "n": 1221,
+        "min_ts": 1756760347.1161,
+        "max_ts": 1756760946.6795,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2110.ndjson.gz",
+        "n": 1006,
+        "min_ts": 1756760947.8348,
+        "max_ts": 1756761546.6889,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2120.ndjson.gz",
+        "n": 1206,
+        "min_ts": 1756761548.1756,
+        "max_ts": 1756762148.8332,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2130.ndjson.gz",
+        "n": 1012,
+        "min_ts": 1756762149.0537,
+        "max_ts": 1756762748.9783,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2140.ndjson.gz",
+        "n": 1268,
+        "min_ts": 1756762749.9134,
+        "max_ts": 1756763350.1036,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2150.ndjson.gz",
+        "n": 1042,
+        "min_ts": 1756763350.5855,
+        "max_ts": 1756763950.3973,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2200.ndjson.gz",
+        "n": 1201,
+        "min_ts": 1756763950.9016,
+        "max_ts": 1756764550.9661,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2210.ndjson.gz",
+        "n": 1028,
+        "min_ts": 1756764551.5701,
+        "max_ts": 1756765152.114,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2220.ndjson.gz",
+        "n": 1165,
+        "min_ts": 1756765152.2578,
+        "max_ts": 1756765751.8957,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2230.ndjson.gz",
+        "n": 997,
+        "min_ts": 1756765753.1174,
+        "max_ts": 1756766352.2969,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2240.ndjson.gz",
+        "n": 975,
+        "min_ts": 1756766353.68,
+        "max_ts": 1756766953.1961,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2250.ndjson.gz",
+        "n": 1192,
+        "min_ts": 1756766955.4786,
+        "max_ts": 1756767555.836,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2300.ndjson.gz",
+        "n": 891,
+        "min_ts": 1756767623.252,
+        "max_ts": 1756768164.0154,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2310.ndjson.gz",
+        "n": 1228,
+        "min_ts": 1756768164.2283,
+        "max_ts": 1756768763.4052,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2320.ndjson.gz",
+        "n": 974,
+        "min_ts": 1756768764.3272,
+        "max_ts": 1756769364.3114,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2330.ndjson.gz",
+        "n": 1105,
+        "min_ts": 1756769364.8538,
+        "max_ts": 1756769964.962,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2340.ndjson.gz",
+        "n": 965,
+        "min_ts": 1756769965.698,
+        "max_ts": 1756770566.2871,
+        "late": 0
+      },
+      {
+        "file": "capture_20250901T2350.ndjson.gz",
+        "n": 1120,
+        "min_ts": 1756770567.0416,
+        "max_ts": 1756771167.738,
+        "late": 0
+      }
+    ]
+  },
+  "2025_LAN-strict": {
+    "counts": {
+      "accepted": 177494
+    },
+    "problems": {}
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "operations": {
+    ".workbench": [
+      {
+        "command": "init",
+        "started_at": "2026-10-29T16:20:51.840874+00:00",
+        "status": "passed",
+        "pid": 3947946,
+        "dataset": "/mnt/data/2026_MAESTRO/Datasets/2025_LAN",
+        "repo": "/home/rysavy/lan-dataset-tools/maestro-helena-wave",
+        "reports": "/home/rysavy/lan-dataset-tools/.workbench/operations/20261029T162051Z-init-6583867b",
+        "runtime": {
+          "schema": "helena-v1_1-runtime-provenance.v1",
+          "generated_at": "2026-10-29T16:21:24.105855+00:00",
+          "manifest": "scripts/v11/artifacts.json",
+          "provisioner": "dp_workbench.py offline-only",
+          "artifacts": [
+            {
+              "name": "risingwave",
+              "path": "/home/rysavy/lan-dataset-tools/maestro-helena-wave/bin/risingwave",
+              "sha256": "c92b2ca003e9e86d9b46a9c6774625ed8ee61a066782547ad33809225bc71d6e",
+              "version": "risingwave 3.0.3 (ec07f2eb75)"
+            },
+            {
+              "name": "risingwave-libpython",
+              "path": "/home/rysavy/lan-dataset-tools/maestro-helena-wave/bin/lib/libpython3.12.so.1.0",
+              "sha256": "a9012a93269d50863ff5650422eed367022651090c0848043fc48ab71c9c7fd5",
+              "source": "/home/rysavy/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/libpython3.12.so.1.0",
+              "manifest_sha256": "f39b6f857a27e6db229fd047562c75f3ad60b34a05c83d796e3951a551399ee1",
+              "matches_manifest": false
+            }
+          ]
+        },
+        "namespace_prefix": [
+          "unshare",
+          "--user",
+          "--map-root-user"
+        ],
+        "commit": "926fa20278ce5aab3d0a5ab953517bff0efa371b",
+        "exit_code": 0,
+        "finished_at": "2026-10-29T16:26:11.700540+00:00"
+      },
+      {
+        "command": "init",
+        "started_at": "2026-10-29T16:26:52.777541+00:00",
+        "status": "passed",
+        "pid": 3950402,
+        "dataset": "/mnt/data/2026_MAESTRO/Datasets/2025_LAN",
+        "repo": "/home/rysavy/lan-dataset-tools/maestro-helena-wave",
+        "reports": "/home/rysavy/lan-dataset-tools/.workbench/operations/20261029T162652Z-init-b5c14ac6",
+        "runtime": {
+          "schema": "helena-v1_1-runtime-provenance.v1",
+          "generated_at": "2026-10-29T16:26:55.329459+00:00",
+          "manifest": "scripts/v11/artifacts.json",
+          "provisioner": "dp_workbench.py offline-only",
+          "artifacts": [
+            {
+              "name": "risingwave",
+              "path": "/home/rysavy/lan-dataset-tools/maestro-helena-wave/bin/risingwave",
+              "sha256": "c92b2ca003e9e86d9b46a9c6774625ed8ee61a066782547ad33809225bc71d6e",
+              "version": "risingwave 3.0.3 (ec07f2eb75)"
+            },
+            {
+              "name": "risingwave-libpython",
+              "path": "/home/rysavy/lan-dataset-tools/maestro-helena-wave/bin/lib/libpython3.12.so.1.0",
+              "sha256": "a9012a93269d50863ff5650422eed367022651090c0848043fc48ab71c9c7fd5",
+              "source": "/home/rysavy/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/libpython3.12.so.1.0",
+              "manifest_sha256": "f39b6f857a27e6db229fd047562c75f3ad60b34a05c83d796e3951a551399ee1",
+              "matches_manifest": false
+            }
+          ]
+        },
+        "namespace_prefix": [
+          "unshare",
+          "--user",
+          "--map-root-user"
+        ],
+        "commit": "926fa20278ce5aab3d0a5ab953517bff0efa371b",
+        "exit_code": 0,
+        "finished_at": "2026-10-29T16:26:57.642595+00:00"
+      }
+    ],
+    ".workbench-validation-test": [
+      {
+        "command": "validate",
+        "started_at": "2026-10-29T16:23:54.537805+00:00",
+        "status": "passed",
+        "pid": 3949544,
+        "dataset": "/mnt/data/2026_MAESTRO/Datasets/2025_LAN",
+        "repo": "/home/rysavy/lan-dataset-tools/maestro-helena-wave",
+        "reports": "/home/rysavy/lan-dataset-tools/.workbench-validation-test/operations/20261029T162354Z-validate-f83c0551",
+        "commit": "926fa20278ce5aab3d0a5ab953517bff0efa371b",
+        "checker_sha256": "97d1a566fefddbebd37556939ca59112014e1631c0c7e75ef2edda6b10f65cea",
+        "days": [
+          {
+            "day": "2025-09-01",
+            "files": 144,
+            "started_at": "2026-10-29T16:23:54.571333+00:00",
+            "status": "passed",
+            "zero_byte_files": [],
+            "validation_exit": 0,
+            "finished_at": "2026-10-29T16:24:21.170035+00:00"
+          }
+        ],
+        "exit_code": 0,
+        "finished_at": "2026-10-29T16:24:21.170890+00:00"
+      }
+    ],
+    ".workbench-run-test": [
+      {
+        "command": "run",
+        "started_at": "2026-10-29T16:24:22.963648+00:00",
+        "status": "passed",
+        "pid": 3949755,
+        "dataset": "/home/rysavy/lan-dataset-tools/.workbench-test-fixtures/synthetic",
+        "repo": "/home/rysavy/lan-dataset-tools/maestro-helena-wave",
+        "reports": "/home/rysavy/lan-dataset-tools/.workbench-run-test/operations/20261029T162422Z-run-5b4bccd3",
+        "commit": "926fa20278ce5aab3d0a5ab953517bff0efa371b",
+        "checker_sha256": "97d1a566fefddbebd37556939ca59112014e1631c0c7e75ef2edda6b10f65cea",
+        "days": [
+          {
+            "day": "2026-09-15",
+            "files": 1,
+            "started_at": "2026-10-29T16:24:22.980467+00:00",
+            "status": "passed",
+            "zero_byte_files": [],
+            "validation_exit": 0,
+            "preflight_only": true,
+            "argv": [
+              "unshare",
+              "--user",
+              "--map-root-user",
+              "/home/rysavy/lan-dataset-tools/maestro-helena-wave/.venv/bin/python",
+              "/home/rysavy/lan-dataset-tools/maestro-helena-wave/bin/wave-offline",
+              "--connections",
+              "/home/rysavy/lan-dataset-tools/.workbench-test-fixtures/synthetic/2026/09/15",
+              "--order",
+              "name",
+              "--out",
+              "/home/rysavy/lan-dataset-tools/.workbench-run-test/operations/20261029T162422Z-run-5b4bccd3/2026-09-15/contexts",
+              "--quarantine",
+              "/home/rysavy/lan-dataset-tools/.workbench-run-test/operations/20261029T162422Z-run-5b4bccd3/2026-09-15/quarantine.jsonl",
+              "--tenant",
+              "lan",
+              "--sensor",
+              "office-lan",
+              "--timeout",
+              "180",
+              "--check"
+            ],
+            "processor_exit": 0,
+            "finished_at": "2026-10-29T16:24:24.013687+00:00"
+          }
+        ],
+        "exit_code": 0,
+        "finished_at": "2026-10-29T16:24:24.014435+00:00"
+      },
+      {
+        "command": "inspect",
+        "started_at": "2026-10-29T16:24:46.246406+00:00",
+        "status": "passed",
+        "pid": 3949899,
+        "dataset": "/home/rysavy/lan-dataset-tools/.workbench-test-fixtures/synthetic",
+        "repo": "/home/rysavy/lan-dataset-tools/maestro-helena-wave",
+        "reports": "/home/rysavy/lan-dataset-tools/.workbench-run-test/operations/20261029T162446Z-inspect-800cae0b",
+        "inventory": {
+          "root": "/home/rysavy/lan-dataset-tools/.workbench-test-fixtures/synthetic",
+          "files": 1,
+          "compressed_bytes": 6429,
+          "days": 1,
+          "months": {
+            "2026-09": {
+              "files": 1,
+              "bytes": 6429
+            }
+          },
+          "first_filename_time": "2026-09-15T10:00:00",
+          "last_filename_time": "2026-09-15T10:00:00",
+          "missing_days": [],
+          "misplaced_files": [],
+          "unexpected_filenames": [],
+          "zero_byte_files": []
+        },
+        "exit_code": 0,
+        "finished_at": "2026-10-29T16:24:46.338447+00:00"
+      },
+      {
+        "command": "run",
+        "started_at": "2026-10-29T16:25:38.171831+00:00",
+        "status": "passed",
+        "pid": 3950156,
+        "dataset": "/home/rysavy/lan-dataset-tools/.workbench-test-fixtures/synthetic",
+        "repo": "/home/rysavy/lan-dataset-tools/maestro-helena-wave",
+        "reports": "/home/rysavy/lan-dataset-tools/.workbench-run-test/operations/20261029T162538Z-run-5e98c6bb",
+        "commit": "926fa20278ce5aab3d0a5ab953517bff0efa371b",
+        "checker_sha256": "97d1a566fefddbebd37556939ca59112014e1631c0c7e75ef2edda6b10f65cea",
+        "days": [
+          {
+            "day": "2026-09-15",
+            "files": 1,
+            "started_at": "2026-10-29T16:25:38.184577+00:00",
+            "status": "passed",
+            "zero_byte_files": [],
+            "validation_exit": 0,
+            "preflight_only": true,
+            "expected_contexts": 6,
+            "argv": [
+              "unshare",
+              "--user",
+              "--map-root-user",
+              "/home/rysavy/lan-dataset-tools/maestro-helena-wave/.venv/bin/python",
+              "/home/rysavy/lan-dataset-tools/maestro-helena-wave/bin/wave-offline",
+              "--connections",
+              "/home/rysavy/lan-dataset-tools/.workbench-test-fixtures/synthetic/2026/09/15",
+              "--order",
+              "name",
+              "--out",
+              "/home/rysavy/lan-dataset-tools/.workbench-run-test/operations/20261029T162538Z-run-5e98c6bb/2026-09-15/contexts",
+              "--quarantine",
+              "/home/rysavy/lan-dataset-tools/.workbench-run-test/operations/20261029T162538Z-run-5e98c6bb/2026-09-15/quarantine.jsonl",
+              "--tenant",
+              "lan",
+              "--sensor",
+              "office-lan",
+              "--timeout",
+              "180",
+              "--expect",
+              "6",
+              "--check"
+            ],
+            "processor_exit": 0,
+            "finished_at": "2026-10-29T16:25:39.220603+00:00"
+          }
+        ],
+        "exit_code": 0,
+        "finished_at": "2026-10-29T16:25:39.221288+00:00"
+      }
+    ]
+  },
+  "engine_teardown": {
+    "all_owned_processes_stopped": true,
+    "endpoints": {
+      "risingwave": "host=127.0.0.1 port=14566 user=root dbname=dev"
+    },
+    "exit_codes": {
+      "risingwave": 0
+    },
+    "namespace": "net:[4026532747]",
+    "owned_paths": [
+      "/home/rysavy/lan-dataset-tools/maestro-helena-wave/.run/v11/runs/run-20261029T162127Z-cb466310/risingwave-data"
+    ],
+    "pids": {
+      "risingwave": 4
+    },
+    "ready_at": "2026-10-29T16:21:36.525822+00:00",
+    "runtime_directory": "/home/rysavy/lan-dataset-tools/maestro-helena-wave/.run/v11/runs/run-20261029T162127Z-cb466310",
+    "schema": "helena-v1_1-runtime-ownership.v1",
+    "started_at": "2026-10-29T16:21:27.838181+00:00",
+    "state_removed": [
+      "risingwave-data"
+    ],
+    "status": "STOPPED",
+    "stopped_at": "2026-10-29T16:26:11.502789+00:00"
+  },
+  "notes": [
+    "Smoke demo exported 6 contexts with 0 rejected and 0 withheld.",
+    "Upstream wave-offline progress reporter selected .retention.lock as its run directory; actual ownership manifest confirms STOPPED and state removal.",
+    "Real LAN day 2025-09-01 passed strict upstream validation; full LAN context computation was not run."
+  ]
+}

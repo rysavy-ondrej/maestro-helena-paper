@@ -1,0 +1,467 @@
+926fa20278ce5aab3d0a5ab953517bff0efa371b
+{
+  "repository": "https://github.com/rysavy-ondrej/maestro-helena-wave",
+  "commit": "926fa20278ce5aab3d0a5ab953517bff0efa371b",
+  "results": {
+    "2024-07-30": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-07-30.jsonl"
+      ],
+      "lines": 196,
+      "accepted": 196,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 4,
+      "event_time": {
+        "earliest": "2024-07-30T02:38:48.960800+00:00",
+        "furthest": "2024-07-30T02:47:19.923800+00:00"
+      },
+      "contexts": 6,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "172.16.1.66",
+        "window_start": "2024-07-30T02:35:00+00:00",
+        "connections": 100
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2024-08-15": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-08-15.jsonl"
+      ],
+      "lines": 687,
+      "accepted": 687,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 6,
+      "event_time": {
+        "earliest": "2024-08-15T00:09:43.804300+00:00",
+        "furthest": "2024-08-15T00:42:25.117400+00:00"
+      },
+      "contexts": 13,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.8.15.133",
+        "window_start": "2024-08-15T00:10:00+00:00",
+        "connections": 224
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2024-09-04": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-09-04.jsonl"
+      ],
+      "lines": 221,
+      "accepted": 221,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 6,
+      "event_time": {
+        "earliest": "2024-09-04T17:32:31.318600+00:00",
+        "furthest": "2024-09-04T18:31:52.687800+00:00"
+      },
+      "contexts": 18,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "172.17.0.99",
+        "window_start": "2024-09-04T17:30:00+00:00",
+        "connections": 57
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2024-11-26": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2024-11-26.jsonl"
+      ],
+      "lines": 276,
+      "accepted": 276,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 4,
+      "event_time": {
+        "earliest": "2024-11-26T04:49:38.458100+00:00",
+        "furthest": "2024-11-26T05:42:27.554000+00:00"
+      },
+      "contexts": 13,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.11.26.183",
+        "window_start": "2024-11-26T04:50:00+00:00",
+        "connections": 145
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2025-01-22": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2025-01-22.jsonl"
+      ],
+      "lines": 767,
+      "accepted": 767,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 8,
+      "event_time": {
+        "earliest": "2025-01-22T19:44:56.530100+00:00",
+        "furthest": "2025-01-22T20:37:01.564300+00:00"
+      },
+      "contexts": 19,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.1.17.215",
+        "window_start": "2025-01-22T19:45:00+00:00",
+        "connections": 236
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2025-06-13": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2025-06-13.jsonl"
+      ],
+      "lines": 361,
+      "accepted": 361,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 6,
+      "event_time": {
+        "earliest": "2025-06-13T15:33:55.686600+00:00",
+        "furthest": "2025-06-13T16:08:03.134800+00:00"
+      },
+      "contexts": 14,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.6.13.133",
+        "window_start": "2025-06-13T15:30:00+00:00",
+        "connections": 144
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-01-31": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-01-31.jsonl"
+      ],
+      "lines": 314,
+      "accepted": 314,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 8,
+      "event_time": {
+        "earliest": "2026-01-27T23:04:03.908900+00:00",
+        "furthest": "2026-01-27T23:14:25.311900+00:00"
+      },
+      "contexts": 10,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.1.21.58",
+        "window_start": "2026-01-27T23:05:00+00:00",
+        "connections": 160
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-02-28": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-02-28.jsonl"
+      ],
+      "lines": 571,
+      "accepted": 571,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 5,
+      "event_time": {
+        "earliest": "2026-02-28T19:55:06.482900+00:00",
+        "furthest": "2026-03-01T00:10:09.787000+00:00"
+      },
+      "contexts": 55,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.2.28.88",
+        "window_start": "2026-02-28T19:55:00+00:00",
+        "connections": 163
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-08-09": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-08-09.jsonl"
+      ],
+      "lines": 593,
+      "accepted": 593,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 7,
+      "event_time": {
+        "earliest": "2026-08-09T02:07:32.442400+00:00",
+        "furthest": "2026-08-09T02:21:32.528700+00:00"
+      },
+      "contexts": 14,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "172.16.8.53",
+        "window_start": "2026-08-09T02:05:00+00:00",
+        "connections": 191
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "2026-09-11": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_MTA-Exercises/conn/2026-09-11.jsonl"
+      ],
+      "lines": 320,
+      "accepted": 320,
+      "refused": {},
+      "refused_examples": {},
+      "schema_problems": [],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 3,
+      "event_time": {
+        "earliest": "2026-09-11T20:05:55.832900+00:00",
+        "furthest": "2026-09-11T20:27:04.889600+00:00"
+      },
+      "contexts": 7,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": {
+        "host": "10.9.11.135",
+        "window_start": "2026-09-11T20:05:00+00:00",
+        "connections": 103
+      },
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "iscx-testing": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0001.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0002.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0003.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0004.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0005.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0006.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0007.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0008.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0009.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0010.jsonl"
+      ],
+      "lines": 235023,
+      "accepted": 0,
+      "refused": {
+        "schema_invalid": 235023
+      },
+      "refused_examples": {
+        "schema_invalid": [
+          {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+            "line": 1,
+            "detail": "unexpected field cid, part"
+          },
+          {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+            "line": 2,
+            "detail": "unexpected field cid, part, botnet"
+          },
+          {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+            "line": 3,
+            "detail": "unexpected field cid, part, botnet"
+          }
+        ]
+      },
+      "schema_problems": [
+        {
+          "kind": "unexpected field",
+          "field": "cid",
+          "message": "Extra inputs are not permitted",
+          "records": 235023,
+          "first": {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+            "line": 1
+          }
+        },
+        {
+          "kind": "unexpected field",
+          "field": "part",
+          "message": "Extra inputs are not permitted",
+          "records": 235023,
+          "first": {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+            "line": 1
+          }
+        },
+        {
+          "kind": "unexpected field",
+          "field": "botnet",
+          "message": "Extra inputs are not permitted",
+          "records": 174969,
+          "first": {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/testing/testing-0000.jsonl",
+            "line": 2
+          }
+        }
+      ],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 0,
+      "event_time": {
+        "earliest": null,
+        "furthest": null
+      },
+      "contexts": 0,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": null,
+      "window_minutes": 5,
+      "connection_cap": 500
+    },
+    "iscx-training": {
+      "files": [
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0001.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0002.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0003.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0004.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0005.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0006.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0007.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0008.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0009.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0010.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0011.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0012.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0013.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0014.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0015.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0016.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0017.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0018.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0019.jsonl",
+        "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0020.jsonl"
+      ],
+      "lines": 210892,
+      "accepted": 0,
+      "refused": {
+        "schema_invalid": 210892
+      },
+      "refused_examples": {
+        "schema_invalid": [
+          {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+            "line": 1,
+            "detail": "unexpected field cid, part, botnet"
+          },
+          {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+            "line": 2,
+            "detail": "unexpected field cid, part, botnet"
+          },
+          {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+            "line": 3,
+            "detail": "unexpected field cid, part, botnet"
+          }
+        ]
+      },
+      "schema_problems": [
+        {
+          "kind": "unexpected field",
+          "field": "cid",
+          "message": "Extra inputs are not permitted",
+          "records": 210892,
+          "first": {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+            "line": 1
+          }
+        },
+        {
+          "kind": "unexpected field",
+          "field": "part",
+          "message": "Extra inputs are not permitted",
+          "records": 210892,
+          "first": {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+            "line": 1
+          }
+        },
+        {
+          "kind": "unexpected field",
+          "field": "botnet",
+          "message": "Extra inputs are not permitted",
+          "records": 138313,
+          "first": {
+            "file": "/mnt/data/2026_MAESTRO/Datasets/2026_PUB_FLOW_ISCX-Botnet/conn/training/training-0000.jsonl",
+            "line": 1
+          }
+        }
+      ],
+      "late": 0,
+      "late_examples": [],
+      "worst_lag_seconds": 0.0,
+      "hosts": 0,
+      "event_time": {
+        "earliest": null,
+        "furthest": null
+      },
+      "contexts": 0,
+      "truncated_contexts": 0,
+      "connections_outside_the_arrays": 0,
+      "largest_window": null,
+      "window_minutes": 5,
+      "connection_cap": 500
+    }
+  }
+}
